@@ -1,0 +1,6 @@
+c:\users\lucas m lima\documents\visual studio 2015\Projects\MyllennoPhoneVR\MyllennoPhoneVR\bin\Debug\MyllennoPhoneVR.dll
+c:\users\lucas m lima\documents\visual studio 2015\Projects\MyllennoPhoneVR\MyllennoPhoneVR\bin\Debug\MyllennoPhoneVR.pdb
+c:\users\lucas m lima\documents\visual studio 2015\Projects\MyllennoPhoneVR\MyllennoPhoneVR\bin\Debug\UnityEngine.dll
+c:\users\lucas m lima\documents\visual studio 2015\Projects\MyllennoPhoneVR\MyllennoPhoneVR\obj\Debug\MyllennoPhoneVR.csprojResolveAssemblyReference.cache
+c:\users\lucas m lima\documents\visual studio 2015\Projects\MyllennoPhoneVR\MyllennoPhoneVR\obj\Debug\MyllennoPhoneVR.dll
+c:\users\lucas m lima\documents\visual studio 2015\Projects\MyllennoPhoneVR\MyllennoPhoneVR\obj\Debug\MyllennoPhoneVR.pdb
