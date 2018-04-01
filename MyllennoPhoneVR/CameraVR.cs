@@ -50,8 +50,8 @@ namespace MyllennoPhoneVR
         }
 
         /* ------------------------------------------------------------------------------------------------
-		/// Verifica se o dispositivo atual tem suporte aos sensores utilizados
-		/// ----------------------------------------------------------------------------------------------*/
+	/// Verifica se o dispositivo atual tem suporte aos sensores utilizados
+	/// ----------------------------------------------------------------------------------------------*/
         public Boolean isSupported()
         {
             if (SystemInfo.supportsAccelerometer && Input.compass.enabled)
@@ -62,11 +62,11 @@ namespace MyllennoPhoneVR
         }
 
         /* ------------------------------------------------------------------------------------------------
-		/// A bússola retorna um valor de 0 a 360 graus que indica a posição Norte geograficamente.
-		/// Condições:
-		/// 	- A coordenada Y de rotação da câmera do jogo, será a ângulação atual da bússola 
-		/// 	  retirando o valor dela ao iniciar o jogo. Ou seja, a orientação em que a câmera 
-		/// 	  iniciou. Isso impede que o jogo inicie sempre com a frente para o Norte.
+	/// A bússola retorna um valor de 0 a 360 graus que indica a posição Norte geograficamente.
+	/// Condições:
+	/// 	- A coordenada Y de rotação da câmera do jogo, será a ângulação atual da bússola 
+	/// 	  retirando o valor dela ao iniciar o jogo. Ou seja, a orientação em que a câmera 
+	/// 	  iniciou. Isso impede que o jogo inicie sempre com a frente para o Norte.
         /// ----------------------------------------------------------------------------------------------*/
         private float rotationHorizontal()
         {
@@ -86,11 +86,11 @@ namespace MyllennoPhoneVR
         }
 
         /* --------------------------------------------------------------------------------------------------
-		/// A coordenada Z do acelerômetro retorna valores de -1 até +1 de acordo com a orientação 
-		/// do smartphone deitado:
-		/// Condições:
-		/// 	- Esta coordenada multiplicado por (-180º) retorna o valor da inclinação diagonal 
-		/// 	  da câmera, representado pela coordenada X.
+	/// A coordenada Z do acelerômetro retorna valores de -1 até +1 de acordo com a orientação 
+	/// do smartphone deitado:
+	/// Condições:
+	/// 	- Esta coordenada multiplicado por (-180º) retorna o valor da inclinação diagonal 
+	/// 	  da câmera, representado pela coordenada X.
         ///     - Se o modo "deitado" estiver ativado, a multiplicação passa a ser por (-90º).
         /// ----------------------------------------------------------------------------------------------- */
         private float rotationVertical()
@@ -112,11 +112,11 @@ namespace MyllennoPhoneVR
         }
 
         /* --------------------------------------------------------------------------------------------------
-		/// A coordenada X do acelerômetro retorna valores de -1 até +1 de acordo com a orientação 
-		/// do smartphone deitado:
-		/// Condições:
-		/// 	- Esta coordenada multiplicado por (-180º) retorna o valor da inclinação diagonal 
-		/// 	  da câmera, representado pela coordenada Z.
+	/// A coordenada X do acelerômetro retorna valores de -1 até +1 de acordo com a orientação 
+	/// do smartphone deitado:
+	/// Condições:
+	/// 	- Esta coordenada multiplicado por (-180º) retorna o valor da inclinação diagonal 
+	/// 	  da câmera, representado pela coordenada Z.
         ///     - Se o modo "deitado" estiver ativado, a multiplicação passa a ser por (-90º).
         /// ------------------------------------------------------------------------------------------------*/
         private float rotationDiagonal()
@@ -139,7 +139,7 @@ namespace MyllennoPhoneVR
 
         /* --------------------------------------------------------------------------------------------------
         /// Verifica os valores da inclinação horizontal, vertical e diagonal a partir dos sensores.
-		/// Retorna o processamento destes valores para a inclinaçõa da câmera.
+	/// Retorna o processamento destes valores para a inclinaçõa da câmera.
         /// ------------------------------------------------------------------------------------------------*/
         public Quaternion rotationCamera(Quaternion rotation_actual)
         {
